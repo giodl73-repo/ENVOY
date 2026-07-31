@@ -8,6 +8,13 @@ through disbursement, verified output, and durable outcome. It reports the
 largest delivery gap and keeps local-partner share, diversion risk, and
 do-no-harm review as independent constraints.
 
+ENVOY now carries that screen through a complete bounded semantic program.
+Fourteen executable features cover assistance realization, official regional
+flows, the Nepal Compact candidate, quarterly delivery, evaluation readiness,
+scenarios, completion-to-durability realization, lifecycle accounting,
+alternatives, incidence, delivery feasibility, adaptive successors, normalized
+illustrative comparison, and an integrated held handoff.
+
 Its first official run groups ForeignAssistance.gov's FY2024 country file into
 seven source regions. It finds **$85.781B obligated** and **$71.576B disbursed**,
 a same-year ratio of **83.44%**. Two regions—including the source's `World`
@@ -30,6 +37,15 @@ cargo run --quiet -- level2-baseline fixtures/official/mcc-nepal-kpi-2026-q11.ts
 cargo run --quiet -- level2-held-pack fixtures/official/mcc-nepal-kpi-2026-q11.tsv
 cargo run --quiet -- evaluation-readiness fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
 cargo run --quiet -- evaluation-held-pack fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
+cargo run --quiet -- program-scenarios fixtures/synthetic/assistance-semantic-program.tsv
+cargo run --quiet -- program-realization fixtures/synthetic/assistance-semantic-program.tsv
+cargo run --quiet -- program-accounting fixtures/synthetic/assistance-semantic-program.tsv
+cargo run --quiet -- program-alternatives fixtures/synthetic/assistance-semantic-program.tsv
+cargo run --quiet -- program-incidence fixtures/synthetic/assistance-semantic-program.tsv
+cargo run --quiet -- program-delivery fixtures/synthetic/assistance-semantic-program.tsv
+cargo run --quiet -- program-adaptive fixtures/synthetic/assistance-semantic-program.tsv
+cargo run --quiet -- program-peers fixtures/synthetic/assistance-semantic-program.tsv
+cargo run --quiet -- program-held-pack fixtures/synthetic/assistance-semantic-program.tsv
 cargo run --quiet -- held-pack fixtures/cedar-assistance-realization.tsv
 cargo run --quiet -- official-baseline fixtures/official/foreignassistance-fy2024-regions.tsv
 cargo run --quiet -- official-held-pack fixtures/official/foreignassistance-fy2024-regions.tsv
@@ -99,6 +115,33 @@ beneficiaries and projected economic rates of return out of observed effects.
 The exact reopening path is now machine-readable instead of an open-ended
 request for “more evidence.”
 
+## Complete semantic-program demonstration
+
+The synthetic program makes the entire delivery chain executable without
+claiming an observed Nepal effect. Delivery falls from 58.46% to 45.00% under
+stress and recovers to 65.00% in a separate immutable version. An illustrative
+100,000-unit funding chain reaches 70,000 completed-service units, 60,000 units
+received locally, and 50,000 durable-outcome units. The largest handoff loss is
+completion; unrealized assistance is never savings.
+
+Accounting preserves the $550M U.S. compact and $197M Nepal contribution, then
+adds $30M of synthetic transition and $40M of synthetic maintenance. The $817M
+demonstration proves that lifecycle resources cannot disappear and partner
+funding cannot become U.S. savings. It does not revise official compact costs
+or enter Taxlane.
+
+Two of three alternatives clear declared synthetic durability, local-incidence,
+and do-no-harm floors, but ENVOY selects neither. Five-group incidence
+reconciles to zero and shows the local community carrying the largest burden.
+Only four of eight delivery gates pass: transmission evaluation, completed
+works, safeguards, and grievances remain false. The program preserves the live
+road/cancelled transmission evaluation asymmetry and creates immutable
+successor version 2 without diplomatic, partner, or award action.
+
+The definition-matched 70% durability comparison is illustrative, not an
+official compact peer or target. A custodied public comparator remains corpus
+work.
+
 ## What this proves
 
 - Obligations, disbursements, outputs, and durable outcomes remain distinct.
@@ -118,6 +161,7 @@ cargo run --quiet -- analyze fixtures/cedar-assistance-realization.tsv
 cargo run --quiet -- official-baseline fixtures/official/foreignassistance-fy2024-regions.tsv
 cargo run --quiet -- level2-baseline fixtures/official/mcc-nepal-kpi-2026-q11.tsv
 cargo run --quiet -- evaluation-readiness fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
+cargo run --quiet -- program-held-pack fixtures/synthetic/assistance-semantic-program.tsv
 ```
 
 Official anchors: [State 4 FAM 080](https://fam.state.gov/fam/04fam/04fam0080.html) and [State 18 FAM 301.4](https://fam.state.gov/fam/18fam/18fam030104.html).

@@ -7,8 +7,13 @@ name = "envoy"
 version = "0.1.0"
 dependencies = [
  "envoy-nepal-compact",
+ "envoy-program",
 ]
 
 [[package]]
 name = "envoy-nepal-compact"
+version = "0.1.0"
+
+[[package]]
+name = "envoy-program"
 version = "0.1.0"

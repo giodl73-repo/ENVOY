@@ -18,6 +18,15 @@ dependency, security exposure, or hidden burden shifting.
 5. Local incidence, delivery, diversion, and durability audit.
 6. Independently reviewed held Taxlane pack.
 
+## Current semantic boundary
+
+The bounded program now demonstrates scenarios, completion-to-durability
+realization, transition/maintenance accounting, constrained alternatives,
+stakeholder incidence, evaluation/completion/safeguard/grievance delivery
+gates, adaptive successors, illustrative normalized comparison, and an
+integrated held handoff. Candidate-specific effects and a public normalized
+comparator remain evidence work.
+
 ## Non-goals
 
 Sensitive sources, operations, country rankings, diplomatic or award decisions,

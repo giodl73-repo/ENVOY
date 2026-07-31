@@ -6,7 +6,8 @@ license = "MIT"
 description = "Foreign-assistance delivery and outcome realization analysis"
 
 [workspace]
-members = ["crates/envoy-nepal-compact"]
+members = ["crates/envoy-nepal-compact", "crates/envoy-program"]
 
 [dependencies]
 envoy-nepal-compact = { path = "crates/envoy-nepal-compact" }
+envoy-program = { path = "crates/envoy-program" }

@@ -1,0 +1,7 @@
+# source_id=MCC-FY2026-MIDYEAR-BUSINESS-FORECAST
+# evidence_label=official_evaluation_readiness
+# vintage=FY2026_midyear
+# boundary=procurement status establishes evaluation readiness, not design quality, award, completed evaluation, or observed effect
+evaluation_id	project	value_band_min_thousands	value_band_max_thousands	status	planned_date	evaluation_design_public	independent_evaluator_selected	final_collection_date	local_incidence_plan	safeguard_linkage
+26-DPE-2372	electricity_transmission	1000	4999	cancelled	2026-06-30	null	null	null	null	null
+26-DPE-2373	road_maintenance	350	999	solicitation_issued	2026-01-30	null	null	null	null	null

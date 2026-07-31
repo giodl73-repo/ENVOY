@@ -122,6 +122,9 @@ fn held_pack_json(result: &Candidate) -> String {
 }
 
 pub fn run(command: &str, input: &str) -> Result<String, String> {
+    if command.starts_with("evaluation-") {
+        return evaluation::run(command, input);
+    }
     if command.starts_with("level2-") {
         return level2::run(command, input);
     }
@@ -188,4 +191,5 @@ mod tests {
         assert!(parse(&changed).is_err());
     }
 }
+mod evaluation;
 mod level2;

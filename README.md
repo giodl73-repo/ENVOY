@@ -28,6 +28,8 @@ cargo run --quiet -- candidate-baseline fixtures/official/mcc-nepal-compact-fy20
 cargo run --quiet -- candidate-held-pack fixtures/official/mcc-nepal-compact-fy2025.tsv
 cargo run --quiet -- level2-baseline fixtures/official/mcc-nepal-kpi-2026-q11.tsv
 cargo run --quiet -- level2-held-pack fixtures/official/mcc-nepal-kpi-2026-q11.tsv
+cargo run --quiet -- evaluation-readiness fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
+cargo run --quiet -- evaluation-held-pack fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
 cargo run --quiet -- held-pack fixtures/cedar-assistance-realization.tsv
 cargo run --quiet -- official-baseline fixtures/official/foreignassistance-fy2024-regions.tsv
 cargo run --quiet -- official-held-pack fixtures/official/foreignassistance-fy2024-regions.tsv
@@ -81,6 +83,22 @@ amended program envelope is **$550M**. ENVOY preserves that source-version
 mismatch rather than silently reconciling it. The comparison-baseline gate is
 complete; candidate admission remains held.
 
+### Evaluation readiness—not yet an effect
+
+MCC's FY2026 midyear business forecast makes the next boundary concrete. The
+planned **Nepal Road Maintenance Project Evaluation** (`26-DPE-2373`) has a
+solicitation issued in a **$350K–$999K** value band. The planned **Nepal
+Electricity Transmission Project Evaluation** (`26-DPE-2372`) is listed as
+cancelled, in a **$1.0M–$4.999M** value band.
+
+That is useful readiness evidence, but it is not an evaluation result. The
+forecast does not establish the design, baseline cohort, data sources,
+independent evaluator, exposure-aligned final collection, subgroup incidence,
+or linkage to safeguards and grievances. ENVOY therefore keeps projected
+beneficiaries and projected economic rates of return out of observed effects.
+The exact reopening path is now machine-readable instead of an open-ended
+request for “more evidence.”
+
 ## What this proves
 
 - Obligations, disbursements, outputs, and durable outcomes remain distinct.
@@ -99,6 +117,7 @@ cargo test --workspace --all-targets
 cargo run --quiet -- analyze fixtures/cedar-assistance-realization.tsv
 cargo run --quiet -- official-baseline fixtures/official/foreignassistance-fy2024-regions.tsv
 cargo run --quiet -- level2-baseline fixtures/official/mcc-nepal-kpi-2026-q11.tsv
+cargo run --quiet -- evaluation-readiness fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
 ```
 
 Official anchors: [State 4 FAM 080](https://fam.state.gov/fam/04fam/04fam0080.html) and [State 18 FAM 301.4](https://fam.state.gov/fam/18fam/18fam030104.html).
@@ -107,6 +126,9 @@ Candidate sources: [MCC FY2025 Annual Report](https://www.mcc.gov/resources/doc/
 and [MCC Nepal Compact](https://www.mcc.gov/where-we-work/program/nepal-compact/).
 
 Level 2 source: [Nepal Compact Table of Key Performance Indicators](https://www.mcc.gov/resources/doc/nepal-compact-kpi/).
+
+Evaluation anchors: [MCC FY2026 Business Forecast](https://www.mcc.gov/resources/doc/report-business-forecast/)
+and [MCC Monitoring and Evaluation Policy](https://www.mcc.gov/resources/doc/policy-for-monitoring-and-evaluation/).
 
 ## Boundary
 

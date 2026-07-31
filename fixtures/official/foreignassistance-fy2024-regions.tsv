@@ -1,0 +1,15 @@
+# source_id=FA-GOV-COUNTRY-2026-07-30
+# evidence_label=official_aggregate
+# fiscal_year=2024
+# capture_date=2026-07-30
+# source_sha256=e3113a2653598acef9313c9cdcf760297b3b98bb91b16a5845b1118560e61346
+# derivation=sum_current_amount_by_region_and_transaction_type_from_us_foreign_aid_country_csv
+# boundary=same_year_obligations_and_disbursements_are_not_matched_cohorts_outputs_or_outcomes
+region	obligations_current_dollars	disbursements_current_dollars
+east_asia_and_oceania	5351481041	4857967052
+europe_and_eurasia	26788602058	11742651919
+middle_east_and_north_africa	13657250489	12644155171
+south_and_central_asia	3633792812	3801746267
+sub_saharan_africa	17348228423	15933286113
+western_hemisphere	3909717773	3813262135
+world	15092258778	18783110850

@@ -1,3 +1,4 @@
 source_id	publisher	vintage	url	use	boundary
 STATE-4FAM-080	U.S. Department of State	updated 2024-08-09	https://fam.state.gov/fam/04fam/04fam0080.html	obligation and disbursement accounting definitions	financial execution does not establish delivered output or outcome
 STATE-18FAM-301-4	U.S. Department of State	updated 2024-12-26	https://fam.state.gov/fam/18fam/18fam030104.html	monitoring evaluation and data-quality boundary	performance evidence requires program-specific review and does not authorize operations
+FA-GOV-COUNTRY-2026-07-30	ForeignAssistance.gov	FY2024 captured 2026-07-30	https://s3.amazonaws.com/files.explorer.devtechlab.com/us_foreign_aid_country.csv	country-file obligations and disbursements grouped to source regions	live data are revised; same-year transactions are not matched cohorts and do not establish outputs outcomes local incidence or savings

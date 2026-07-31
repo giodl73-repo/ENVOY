@@ -1,0 +1,10 @@
+# source_id=MCC-ANNUAL-REPORT-2025
+# companion_source_id=MCC-NEPAL-COMPACT-PROGRAM
+# evidence_label=official_program_candidate
+# program_status=entered_into_force_active_implementation
+# source_url=https://www.mcc.gov/resources/doc/annual-report-2025/
+# companion_source_url=https://www.mcc.gov/where-we-work/program/nepal-compact/
+# units=tenths_of_millions_nominal_us_dollars_kilometers_and_substations
+# boundary=FY2025 financial position is not a matched annual cohort; obligations expenditures contracts completed outputs projected beneficiaries and durable outcomes remain distinct
+compact	us_compact_tenths_millions	nepal_contribution_tenths_millions	facilitation_obligations_tenths_millions	facilitation_expenditures_tenths_millions	assistance_obligations_tenths_millions	assistance_expenditures_tenths_millions	transmission_km_under_contract	substations_with_mobilized_contractors
+nepal_compact	5500	1970	240	240	5260	918	297	3

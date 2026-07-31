@@ -1,0 +1,9 @@
+[package]
+name = "envoy-nepal-compact"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Nepal Compact delivery candidate-envelope feature for ENVOY"
+
+[lib]
+path = "src/lib.rs"

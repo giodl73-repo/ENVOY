@@ -10,7 +10,8 @@ dependency, security exposure, or hidden burden shifting.
 
 1. Assistance-realization screen — implemented.
 2. Official obligation/disbursement and performance-method source pack.
-3. One bounded, non-sensitive program portfolio candidate.
+3. One bounded, non-sensitive program portfolio candidate — implemented as
+   the held MCC Nepal Compact delivery envelope.
 4. Local incidence, delivery, diversion, and durability audit.
 5. Independently reviewed held Taxlane pack.
 

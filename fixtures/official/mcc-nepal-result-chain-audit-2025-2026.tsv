@@ -1,0 +1,7 @@
+# source_id=MCC-NEPAL-RESULT-CHAIN-AUDIT-2025-2026
+# evidence_label=official_program_result_chain_audit
+# open_data_source_sha256=ca183c1092fb68765c1e0b7de0f20f050c3205fb8cc8299512a930b2cac3a00b
+# q11_source_sha256=4c73817d273739e6cd586e8e7a8a012d6a5be7781e9e8fd033d53b2400f8af47
+# boundary=The only baseline-target-actual join is a process indicator. Design progress is not completed works, service change, local incidence, durable outcome, compact effect, or savings.
+total_rows	outcome_rows	output_rows	process_rows	risk_rows	baseline_ready_rows	target_ready_rows	actual_ready_rows	fully_joined_rows	outcome_fully_joined_rows	compact_specific_rows	compact_specific_actual_rows	joined_indicator	baseline	open_data_actual	end_target	current_q11_actual
+186	73	59	39	15	98	26	27	1	0	3	0	kilometers_of_roads_under_design	0	40	130	76

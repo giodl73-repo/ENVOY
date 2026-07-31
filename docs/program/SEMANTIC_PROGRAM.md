@@ -10,6 +10,7 @@
 | Comparison baseline | What current output is visible? | 76/130 design km; 52 trainees; pending indicators |
 | Evaluation readiness | Is effect evaluation active? | Road solicited; transmission cancelled; no result |
 | Outcome reference | Is observed national movement attributable? | Seven system rows observed; zero compact-specific or target-ready rows |
+| Result-chain audit | Does any outcome join baseline, target, and observation? | 186 indicators audited; one process join; zero outcome joins |
 | Scenarios | What happens under delivery stress and recovery? | 58.46% → 45.00% → 65.00% synthetic |
 | Realization | Where does funded capacity lose durable value? | 100,000 funded → 70,000 complete → 50,000 durable |
 | Accounting | Are transition and maintenance visible? | $817M synthetic total including $70M lifecycle additions |

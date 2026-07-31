@@ -9,10 +9,10 @@ largest delivery gap and keeps local-partner share, diversion risk, and
 do-no-harm review as independent constraints.
 
 ENVOY now carries that screen through a complete bounded semantic program.
-Seventeen executable features cover assistance realization, official regional
+Eighteen executable features cover assistance realization, official regional
 flows, the Nepal Compact candidate, quarterly delivery, evaluation readiness,
 grievance and safeguard readiness, national outcome-reference attribution,
-scenarios, completion-to-durability realization, lifecycle accounting,
+complete result-chain readiness, scenarios, completion-to-durability realization, lifecycle accounting,
 alternatives, incidence, delivery feasibility, adaptive successors, normalized
 illustrative comparison, and an integrated held handoff.
 
@@ -42,6 +42,8 @@ cargo run --quiet -- safeguard-baseline fixtures/official/mca-nepal-safeguard-gr
 cargo run --quiet -- safeguard-held-pack fixtures/official/mca-nepal-safeguard-grievance-readiness-2026.tsv
 cargo run --quiet -- outcome-reference fixtures/official/mcc-nepal-outcome-reference-2025.tsv
 cargo run --quiet -- outcome-held-pack fixtures/official/mcc-nepal-outcome-reference-2025.tsv
+cargo run --quiet -- result-chain-audit fixtures/official/mcc-nepal-result-chain-audit-2025-2026.tsv
+cargo run --quiet -- result-chain-held-pack fixtures/official/mcc-nepal-result-chain-audit-2025-2026.tsv
 cargo run --quiet -- program-scenarios fixtures/synthetic/assistance-semantic-program.tsv
 cargo run --quiet -- program-realization fixtures/synthetic/assistance-semantic-program.tsv
 cargo run --quiet -- program-accounting fixtures/synthetic/assistance-semantic-program.tsv
@@ -153,6 +155,24 @@ therefore makes the outcome reference executable while keeping the compact's
 bounded marginal effect null. National progress is neither credited to the
 compact nor monetized as U.S. savings.
 
+### Complete result-chain readiness
+
+The full MCC open-data Nepal corpus contains **186 indicators**: 73 outcomes,
+59 outputs, 39 processes, and 15 risks or assumptions. Although 98 rows have a
+baseline, 26 have an end target, and 27 have an observation, only **one** row
+has all three. It is the process indicator “kilometers of roads under design.”
+Zero outcome rows have a complete baseline-target-observation join, and none
+of the three explicitly MCC-cross-border rows has an observation.
+
+The one joined process measure is still useful. The older open-data snapshot
+reported 40 of 130 design kilometers; the current quarter-11 table reports 76,
+an additional **36 km** and 58.46% of target. ENVOY preserves this as delivery
+trajectory—not completed road works, service quality, local benefit, durable
+outcome, causal effect, or savings. The complete corpus audit turns the next
+request from “find more data” into a precise demand for a compact-specific
+outcome row with baseline, target, observation, attribution, incidence,
+safeguards, and matched costs.
+
 ## Complete semantic-program demonstration
 
 The synthetic program makes the entire delivery chain executable without
@@ -201,6 +221,7 @@ cargo run --quiet -- level2-baseline fixtures/official/mcc-nepal-kpi-2026-q11.ts
 cargo run --quiet -- evaluation-readiness fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
 cargo run --quiet -- safeguard-baseline fixtures/official/mca-nepal-safeguard-grievance-readiness-2026.tsv
 cargo run --quiet -- outcome-reference fixtures/official/mcc-nepal-outcome-reference-2025.tsv
+cargo run --quiet -- result-chain-audit fixtures/official/mcc-nepal-result-chain-audit-2025-2026.tsv
 cargo run --quiet -- program-held-pack fixtures/synthetic/assistance-semantic-program.tsv
 ```
 

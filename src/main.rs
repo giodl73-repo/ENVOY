@@ -178,7 +178,7 @@ fn held_pack_json(result: &Analysis) -> String {
 fn run(args: &[String]) -> Result<String, String> {
     let [command, path] = args else {
         return Err(
-            "usage: envoy <analyze|held-pack|official-baseline|official-held-pack|candidate-baseline|candidate-held-pack> <fixture.tsv>"
+            "usage: envoy <analyze|held-pack|official-baseline|official-held-pack|candidate-baseline|candidate-held-pack|level2-baseline|level2-held-pack> <fixture.tsv>"
                 .into(),
         );
     };
@@ -186,7 +186,7 @@ fn run(args: &[String]) -> Result<String, String> {
     if !input.contains("# source_id=") || !input.contains("# evidence_label=") {
         return Err("fixture must declare source_id and evidence_label".into());
     }
-    if command.starts_with("candidate-") {
+    if command.starts_with("candidate-") || command.starts_with("level2-") {
         return envoy_nepal_compact::run(command, &input);
     }
     if command.starts_with("official-") {

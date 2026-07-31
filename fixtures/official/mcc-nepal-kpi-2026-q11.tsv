@@ -1,0 +1,9 @@
+# source_id=MCC-NEPAL-KPI-2026-Q11
+# evidence_label=official_program_level2_baseline
+# program_status=entered_into_force_active_implementation
+# report_date=2026-06-30
+# published_date=2026-07-07
+# raw_pdf_sha256=4c73817d273739e6cd586e8e7a8a012d6a5be7781e9e8fd033d53b2400f8af47
+# boundary=pending is missingness not zero; design and training are implementation outputs not completed works local benefits durable outcomes or safeguards
+report_date	quarter	kpi_header_budget_millions	amended_compact_millions	temporary_employment_actual	transformers_target	transformers_actual	power_regulation_training_actual	power_regulation_training_target	mpp_wards_target	mpp_wards_actual	road_training_total	road_training_female	road_training_male	road_design_target_km	road_design_actual_km	published_road_design_target_satisfied_bps
+2026-06-30	11	500	550	null	17	null	13	null	99	null	52	9	43	130	76	5800

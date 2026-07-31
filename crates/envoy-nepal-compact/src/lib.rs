@@ -122,6 +122,9 @@ fn held_pack_json(result: &Candidate) -> String {
 }
 
 pub fn run(command: &str, input: &str) -> Result<String, String> {
+    if command.starts_with("level2-") {
+        return level2::run(command, input);
+    }
     if !input.contains("# evidence_label=official_program_candidate") {
         return Err("candidate command requires official_program_candidate evidence".into());
     }
@@ -185,3 +188,4 @@ mod tests {
         assert!(parse(&changed).is_err());
     }
 }
+mod level2;

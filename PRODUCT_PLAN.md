@@ -12,8 +12,11 @@ dependency, security exposure, or hidden burden shifting.
 2. Official obligation/disbursement and performance-method source pack.
 3. One bounded, non-sensitive program portfolio candidate — implemented as
    the held MCC Nepal Compact delivery envelope.
-4. Local incidence, delivery, diversion, and durability audit.
-5. Independently reviewed held Taxlane pack.
+4. Quarterly implementation-output comparison baseline — implemented through
+   Nepal Compact quarter 11; completion, incidence, safeguard, and durable
+   outcome measures remain null.
+5. Local incidence, delivery, diversion, and durability audit.
+6. Independently reviewed held Taxlane pack.
 
 ## Non-goals
 

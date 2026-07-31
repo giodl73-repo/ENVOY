@@ -26,6 +26,8 @@ the payment from being mislabeled as an achieved outcome.
 cargo run --quiet -- analyze fixtures/cedar-assistance-realization.tsv
 cargo run --quiet -- candidate-baseline fixtures/official/mcc-nepal-compact-fy2025.tsv
 cargo run --quiet -- candidate-held-pack fixtures/official/mcc-nepal-compact-fy2025.tsv
+cargo run --quiet -- level2-baseline fixtures/official/mcc-nepal-kpi-2026-q11.tsv
+cargo run --quiet -- level2-held-pack fixtures/official/mcc-nepal-kpi-2026-q11.tsv
 cargo run --quiet -- held-pack fixtures/cedar-assistance-realization.tsv
 cargo run --quiet -- official-baseline fixtures/official/foreignassistance-fy2024-regions.tsv
 cargo run --quiet -- official-held-pack fixtures/official/foreignassistance-fy2024-regions.tsv
@@ -60,6 +62,25 @@ and mobilization milestones—not completed outputs. Projected beneficiaries,
 economic returns, reliable-electricity gains, road quality, local incidence,
 safeguards, and durable outcomes remain held until verified.
 
+### Level 2 quarterly comparison baseline
+
+MCC's July 2026 KPI table supplies the first current implementation comparison
+surface. Through quarter 11, the compact reports **76 of 130 road-design
+kilometers**, published as 58% of target, and **52 people trained** in road
+technology: 9 women and 43 men. It separately reports 13 power-regulation
+trainees, but no target for that indicator.
+
+This is partial delivery evidence, not completed infrastructure or durable
+benefit. Temporary employment, 17 targeted power transformers, and 99 targeted
+municipal partnership wards remain `Pending`. Completed works, service quality,
+local benefit and burden incidence, grievances, safeguards, diversion, and
+durable outcomes are not reported in the KPI table.
+
+The KPI header also retains the original **$500M** compact budget while the
+amended program envelope is **$550M**. ENVOY preserves that source-version
+mismatch rather than silently reconciling it. The comparison-baseline gate is
+complete; candidate admission remains held.
+
 ## What this proves
 
 - Obligations, disbursements, outputs, and durable outcomes remain distinct.
@@ -77,12 +98,15 @@ cargo fmt --check
 cargo test --workspace --all-targets
 cargo run --quiet -- analyze fixtures/cedar-assistance-realization.tsv
 cargo run --quiet -- official-baseline fixtures/official/foreignassistance-fy2024-regions.tsv
+cargo run --quiet -- level2-baseline fixtures/official/mcc-nepal-kpi-2026-q11.tsv
 ```
 
 Official anchors: [State 4 FAM 080](https://fam.state.gov/fam/04fam/04fam0080.html) and [State 18 FAM 301.4](https://fam.state.gov/fam/18fam/18fam030104.html).
 
 Candidate sources: [MCC FY2025 Annual Report](https://www.mcc.gov/resources/doc/annual-report-2025/)
 and [MCC Nepal Compact](https://www.mcc.gov/where-we-work/program/nepal-compact/).
+
+Level 2 source: [Nepal Compact Table of Key Performance Indicators](https://www.mcc.gov/resources/doc/nepal-compact-kpi/).
 
 ## Boundary
 

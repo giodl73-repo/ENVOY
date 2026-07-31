@@ -9,9 +9,9 @@ largest delivery gap and keeps local-partner share, diversion risk, and
 do-no-harm review as independent constraints.
 
 ENVOY now carries that screen through a complete bounded semantic program.
-Fourteen executable features cover assistance realization, official regional
+Sixteen executable features cover assistance realization, official regional
 flows, the Nepal Compact candidate, quarterly delivery, evaluation readiness,
-scenarios, completion-to-durability realization, lifecycle accounting,
+grievance and safeguard readiness, scenarios, completion-to-durability realization, lifecycle accounting,
 alternatives, incidence, delivery feasibility, adaptive successors, normalized
 illustrative comparison, and an integrated held handoff.
 
@@ -37,6 +37,8 @@ cargo run --quiet -- level2-baseline fixtures/official/mcc-nepal-kpi-2026-q11.ts
 cargo run --quiet -- level2-held-pack fixtures/official/mcc-nepal-kpi-2026-q11.tsv
 cargo run --quiet -- evaluation-readiness fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
 cargo run --quiet -- evaluation-held-pack fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
+cargo run --quiet -- safeguard-baseline fixtures/official/mca-nepal-safeguard-grievance-readiness-2026.tsv
+cargo run --quiet -- safeguard-held-pack fixtures/official/mca-nepal-safeguard-grievance-readiness-2026.tsv
 cargo run --quiet -- program-scenarios fixtures/synthetic/assistance-semantic-program.tsv
 cargo run --quiet -- program-realization fixtures/synthetic/assistance-semantic-program.tsv
 cargo run --quiet -- program-accounting fixtures/synthetic/assistance-semantic-program.tsv
@@ -115,6 +117,23 @@ beneficiaries and projected economic rates of return out of observed effects.
 The exact reopening path is now machine-readable instead of an open-ended
 request for “more evidence.”
 
+### Safeguard and grievance readiness
+
+MCA-Nepal's publisher report establishes a real grievance mechanism with
+in-person and remote intake, three review tiers, and preserved legal recourse.
+Its July 2024 aggregate snapshot records **123 grievances**, including **44
+closed**—a 35.77% arithmetic share of registered grievances. The published
+status bullets account for only 118 grievances: 44 closed, 45 awaiting signoff,
+8 not accepted at tier one, and 21 newly under discussion. ENVOY leaves the
+remaining **5** explicitly unreconciled rather than silently assigning them.
+
+MCC's May 2026 forecast separately shows three visible Nepal support actions:
+environmental/social support awarded, transportation advisory support in
+progress, and technical support in progress. These establish mechanism and
+support capacity—not current resolution timeliness, satisfaction, subgroup
+incidence, safeguard compliance, completed works, or a compact effect. The
+grievance and safeguard floor therefore remains held, now for precise reasons.
+
 ## Complete semantic-program demonstration
 
 The synthetic program makes the entire delivery chain executable without
@@ -161,6 +180,7 @@ cargo run --quiet -- analyze fixtures/cedar-assistance-realization.tsv
 cargo run --quiet -- official-baseline fixtures/official/foreignassistance-fy2024-regions.tsv
 cargo run --quiet -- level2-baseline fixtures/official/mcc-nepal-kpi-2026-q11.tsv
 cargo run --quiet -- evaluation-readiness fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
+cargo run --quiet -- safeguard-baseline fixtures/official/mca-nepal-safeguard-grievance-readiness-2026.tsv
 cargo run --quiet -- program-held-pack fixtures/synthetic/assistance-semantic-program.tsv
 ```
 
@@ -173,6 +193,9 @@ Level 2 source: [Nepal Compact Table of Key Performance Indicators](https://www.
 
 Evaluation anchors: [MCC FY2026 Business Forecast](https://www.mcc.gov/resources/doc/report-business-forecast/)
 and [MCC Monitoring and Evaluation Policy](https://www.mcc.gov/resources/doc/policy-for-monitoring-and-evaluation/).
+
+Safeguard readiness anchors: [MCA-Nepal FY2023/24 Annual Report public archive](https://nepalindata.com/media/resources/items/0/bAnnual_Report_English.pdf)
+and [MCC FY2026 Business Forecast](https://www.mcc.gov/resources/doc/report-business-forecast/).
 
 ## Boundary
 

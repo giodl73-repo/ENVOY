@@ -1,0 +1,20 @@
+# source_id=MCA-NEPAL-SAFEGUARD-GRIEVANCE-READINESS-2026
+# evidence_label=official_safeguard_grievance_readiness
+# as_of_date=2026-07-31
+# grievance_vintage=2024-07
+# annual_report_archive=https://nepalindata.com/media/resources/items/0/bAnnual_Report_English.pdf
+# mcc_forecast_source=https://www.mcc.gov/resources/doc/report-business-forecast/
+# mcc_forecast_vintage=2026-05-12
+# boundary=The publisher report establishes an accessible grievance mechanism and an aggregate July 2024 status snapshot. It does not establish current resolution timeliness, satisfaction, subgroup incidence, safeguard compliance, or a compact effect. MCC procurement status establishes support capacity only.
+metric	value	unit
+grievances_registered	123	grievances
+grievances_closed	44	grievances
+responses_awaiting_signoff	45	grievances
+tier1_not_accepted	8	grievances
+new_under_discussion	21	grievances
+appeal_tiers	3	tiers
+legal_recourse_preserved	1	boolean
+remote_submission_available	1	boolean
+mcc_nepal_esp_support_awarded	1	contracts
+mcc_nepal_transport_support_in_progress	1	contracts
+mcc_nepal_technical_support_in_progress	1	contracts

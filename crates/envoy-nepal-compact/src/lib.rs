@@ -122,6 +122,9 @@ fn held_pack_json(result: &Candidate) -> String {
 }
 
 pub fn run(command: &str, input: &str) -> Result<String, String> {
+    if command.starts_with("outcome-") {
+        return outcomes::run(command, input);
+    }
     if command.starts_with("safeguard-") {
         return safeguards::run(command, input);
     }
@@ -196,4 +199,5 @@ mod tests {
 }
 mod evaluation;
 mod level2;
+mod outcomes;
 mod safeguards;

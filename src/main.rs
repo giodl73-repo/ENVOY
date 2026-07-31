@@ -178,7 +178,7 @@ fn held_pack_json(result: &Analysis) -> String {
 fn run(args: &[String]) -> Result<String, String> {
     let [command, path] = args else {
         return Err(
-            "usage: envoy <analyze|held-pack|official-baseline|official-held-pack|candidate-baseline|candidate-held-pack|level2-baseline|level2-held-pack|evaluation-readiness|evaluation-held-pack|safeguard-baseline|safeguard-held-pack|program-scenarios|program-realization|program-accounting|program-alternatives|program-incidence|program-delivery|program-adaptive|program-peers|program-held-pack> <fixture.tsv>"
+            "usage: envoy <analyze|held-pack|official-baseline|official-held-pack|candidate-baseline|candidate-held-pack|level2-baseline|level2-held-pack|evaluation-readiness|evaluation-held-pack|safeguard-baseline|safeguard-held-pack|outcome-reference|outcome-held-pack|program-scenarios|program-realization|program-accounting|program-alternatives|program-incidence|program-delivery|program-adaptive|program-peers|program-held-pack> <fixture.tsv>"
                 .into(),
         );
     };
@@ -193,6 +193,7 @@ fn run(args: &[String]) -> Result<String, String> {
         || command.starts_with("level2-")
         || command.starts_with("evaluation-")
         || command.starts_with("safeguard-")
+        || command.starts_with("outcome-")
     {
         return envoy_nepal_compact::run(command, &input);
     }

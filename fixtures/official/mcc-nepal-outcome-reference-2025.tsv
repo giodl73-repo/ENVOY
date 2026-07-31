@@ -1,0 +1,15 @@
+# source_id=MCC-OPEN-DATA-ITT-2025
+# evidence_label=official_aggregate_outcome_reference
+# publisher=Millennium Challenge Corporation Open Data Catalog
+# source_url=https://inventory.data.gov/dataset/48ebd38e-e6dd-4543-ba9d-37dca0a349fd/resource/9bf3e82c-559d-44d0-95a4-d189fe669826/download/itt-dataset_itt.csv
+# source_sha256=ca183c1092fb68765c1e0b7de0f20f050c3205fb8cc8299512a930b2cac3a00b
+# vintage=released 2025-05-05; modified 2025-05-06; Nepal observations through compact quarter 4
+# boundary=Observed national-system movement is context, not an MCC Nepal Compact effect. Cross-border-line-specific outcomes, counterfactuals, local incidence, safeguards, durability, and matched costs remain unavailable.
+indicator	level	unit	baseline	actual	observed_quarter	compact_specific	target_ready
+export_revenue	outcome	usd	78600000	128315789	4	false	false
+total_electricity_supply	outcome	megawatt_hours	12369000	13966000	4	false	false
+imported_electricity	outcome	megawatt_hours	1833000	1895000	4	false	false
+exported_electricity	outcome	megawatt_hours	1346000	1946000	4	false	false
+transmission_system_technical_losses	outcome	basis_points	449	443	4	false	false
+operating_cost_recovery_ratio	outcome	basis_points	null	11300	4	false	false
+generation_capacity	risk_assumption	megawatts	3103	3906	4	false	false

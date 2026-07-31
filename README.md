@@ -9,9 +9,10 @@ largest delivery gap and keeps local-partner share, diversion risk, and
 do-no-harm review as independent constraints.
 
 ENVOY now carries that screen through a complete bounded semantic program.
-Sixteen executable features cover assistance realization, official regional
+Seventeen executable features cover assistance realization, official regional
 flows, the Nepal Compact candidate, quarterly delivery, evaluation readiness,
-grievance and safeguard readiness, scenarios, completion-to-durability realization, lifecycle accounting,
+grievance and safeguard readiness, national outcome-reference attribution,
+scenarios, completion-to-durability realization, lifecycle accounting,
 alternatives, incidence, delivery feasibility, adaptive successors, normalized
 illustrative comparison, and an integrated held handoff.
 
@@ -39,6 +40,8 @@ cargo run --quiet -- evaluation-readiness fixtures/official/mcc-nepal-evaluation
 cargo run --quiet -- evaluation-held-pack fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
 cargo run --quiet -- safeguard-baseline fixtures/official/mca-nepal-safeguard-grievance-readiness-2026.tsv
 cargo run --quiet -- safeguard-held-pack fixtures/official/mca-nepal-safeguard-grievance-readiness-2026.tsv
+cargo run --quiet -- outcome-reference fixtures/official/mcc-nepal-outcome-reference-2025.tsv
+cargo run --quiet -- outcome-held-pack fixtures/official/mcc-nepal-outcome-reference-2025.tsv
 cargo run --quiet -- program-scenarios fixtures/synthetic/assistance-semantic-program.tsv
 cargo run --quiet -- program-realization fixtures/synthetic/assistance-semantic-program.tsv
 cargo run --quiet -- program-accounting fixtures/synthetic/assistance-semantic-program.tsv
@@ -134,6 +137,22 @@ support capacity—not current resolution timeliness, satisfaction, subgroup
 incidence, safeguard compliance, completed works, or a compact effect. The
 grievance and safeguard floor therefore remains held, now for precise reasons.
 
+### Outcome reference—movement is not attribution
+
+MCC's official open-data indicator table supplies national-system outcome
+context through compact quarter 4. Export revenue rises from **$78.6M to
+$128.316M**, electricity supply from **12.369M to 13.966M MWh**, exports from
+**1.346M to 1.946M MWh**, and generation capacity from **3,103 to 3,906 MW**;
+technical transmission losses fall from **4.49% to 4.43%**.
+
+Those movements are real observations, but none of the seven selected rows is
+compact-specific and none has a ready compact target. The cross-border-line
+subrows are empty, construction was incomplete, and there is no counterfactual,
+matched exposure, local-incidence result, or independent evaluation. ENVOY
+therefore makes the outcome reference executable while keeping the compact's
+bounded marginal effect null. National progress is neither credited to the
+compact nor monetized as U.S. savings.
+
 ## Complete semantic-program demonstration
 
 The synthetic program makes the entire delivery chain executable without
@@ -181,6 +200,7 @@ cargo run --quiet -- official-baseline fixtures/official/foreignassistance-fy202
 cargo run --quiet -- level2-baseline fixtures/official/mcc-nepal-kpi-2026-q11.tsv
 cargo run --quiet -- evaluation-readiness fixtures/official/mcc-nepal-evaluation-readiness-2026.tsv
 cargo run --quiet -- safeguard-baseline fixtures/official/mca-nepal-safeguard-grievance-readiness-2026.tsv
+cargo run --quiet -- outcome-reference fixtures/official/mcc-nepal-outcome-reference-2025.tsv
 cargo run --quiet -- program-held-pack fixtures/synthetic/assistance-semantic-program.tsv
 ```
 
@@ -196,6 +216,8 @@ and [MCC Monitoring and Evaluation Policy](https://www.mcc.gov/resources/doc/pol
 
 Safeguard readiness anchors: [MCA-Nepal FY2023/24 Annual Report public archive](https://nepalindata.com/media/resources/items/0/bAnnual_Report_English.pdf)
 and [MCC FY2026 Business Forecast](https://www.mcc.gov/resources/doc/report-business-forecast/).
+
+Outcome-reference anchor: [MCC Open Data Catalog](https://data.mcc.gov/).
 
 ## Boundary
 

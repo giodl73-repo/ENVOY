@@ -1,0 +1,6 @@
+# evidence_label=synthetic_aggregate_example
+# source_id=STATE-4FAM-080,STATE-18FAM-301-4
+portfolio	obligated_millions	disbursed_millions	verified_output_bps	durable_outcome_bps	local_partner_bps	diversion_risk_bps	do_no_harm_pass
+resilience	60	54	8500	6200	4800	600	true
+health	50	42	8100	5900	5500	500	true
+governance	40	24	5800	3900	6800	1400	true

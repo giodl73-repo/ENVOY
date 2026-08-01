@@ -13,6 +13,12 @@ scores the current program **15/21**. Compact attribution, durable local
 outcomes, lifecycle value, and fiscal authority remain held until complete
 evidence joins support them.
 
+The owner-aligned [Nepal Compact candidate assessment](docs/vtrace/NEPAL_COMPACT_CANDIDATE_ASSESSMENT.md)
+scores its current evidence **11/21**. Active delivery and quarterly learning
+machinery are visible, but only Trust is ready for TAXLANE admission; completed
+service, durable outcomes, local incidence, resilience, and fiscal effects
+remain held.
+
 Its first official run groups ForeignAssistance.gov's FY2024 country file into
 seven source regions. It finds **$85.781B obligated** and **$71.576B disbursed**,
 a same-year ratio of **83.44%**. Two regions—including the source's `World`

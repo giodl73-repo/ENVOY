@@ -1,0 +1,61 @@
+{
+  "assessment_id": "envoy-nepal-compact-candidate:2026-07-31",
+  "schema": "vtrace.verdict-candidate-assessment.v1",
+  "object_class": "candidate",
+  "candidate_id": "mcc_nepal_compact_implementation",
+  "candidate_name": "MCC Nepal Compact implementation",
+  "producer": "ENVOY",
+  "producer_commit": "f73aad76981ce79b2276f332147e598f71922499",
+  "fiscal_owner": "TAXLANE",
+  "as_of_date": "2026-07-31",
+  "scores": {
+    "value": 1,
+    "effectiveness": 1,
+    "resilience": 1,
+    "deliverability": 2,
+    "iteration": 2,
+    "coverage_and_fair_access": 1,
+    "trust": 3,
+    "total": 11,
+    "possible": 21,
+    "minimum": 1,
+    "total_is_gate_disposition": false
+  },
+  "dimension_reviews": [
+    {"dimension":"value","recommended_disposition":"required_blocked","evidence":"reconciled public funding and expenditure envelope","hold":"completed outcome denominator, lifecycle cost, maintenance, additionality, and compatible alternative missing"},
+    {"dimension":"effectiveness","recommended_disposition":"required_blocked","evidence":"quarter 11 road design and training outputs","hold":"completed service, attributed effect, and durable outcome missing"},
+    {"dimension":"resilience","recommended_disposition":"required_blocked","evidence":"safeguard, grievance, diversion, maintenance, and compact-end concepts represented","hold":"candidate-specific stress, recovery, safeguard, grievance, and continuity results missing"},
+    {"dimension":"deliverability","recommended_disposition":"required_blocked","evidence":"active compact, contracted transmission, mobilized substations, and quarterly reporting","hold":"completion, quality, capacity, budget reconciliation, maintenance transfer, and institutional delivery incomplete"},
+    {"dimension":"iteration","recommended_disposition":"required_blocked","evidence":"quarterly cadence, reopen triggers, compact-end review, and road-evaluation solicitation","hold":"completed independent evaluation, operational response, outcome learning, rollback, and fiscal rebalancing missing"},
+    {"dimension":"coverage_and_fair_access","recommended_disposition":"required_blocked","evidence":"local ownership, cofunding, sex-disaggregated training, safeguard, grievance, resettlement, and benefit-sharing fields","hold":"local incidence, participation, displacement, subgroup access, grievance results, and do-no-harm passage missing"},
+    {"dimension":"trust","recommended_disposition":"required_ready","evidence":"official MCC sources, replayable fixtures, checksums, source-version warnings, role review, and claim boundaries","hold":"none for bounded source and delivery claims"}
+  ],
+  "producer_evidence": [
+    {"command":"cargo run --quiet -- candidate-held-pack fixtures/official/mcc-nepal-compact-fy2025.tsv","pack_id":"envoy:mcc-nepal-compact-implementation:v1"},
+    {"command":"cargo run --quiet -- level2-held-pack fixtures/official/mcc-nepal-kpi-2026-q11.tsv","pack_id":"envoy:mcc-nepal-compact-q11-baseline:v1"}
+  ],
+  "allowed_claims": [
+    "active compact public financial envelope",
+    "partner cofunding kept separate from U.S. cost",
+    "partial contract, mobilization, design, training, and evaluation-readiness milestones"
+  ],
+  "blocked_claims": [
+    "candidate recommendation",
+    "completed service",
+    "durable benefit",
+    "local incidence passage",
+    "savings",
+    "allocation",
+    "rate change",
+    "procurement direction",
+    "public action"
+  ],
+  "next_evidence_action": "Complete one matched road or electricity result chain from version-reconciled cost through completed service, independent effect, local incidence, safeguards, maintenance, uncertainty, and durability.",
+  "authority": {
+    "taxlane_admission": false,
+    "savings": false,
+    "allocation": false,
+    "rate_change": false,
+    "release": false
+  }
+}

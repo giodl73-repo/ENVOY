@@ -8,6 +8,11 @@ through disbursement, verified output, and durable outcome. It reports the
 largest delivery gap and keeps local-partner share, diversion risk, and
 do-no-harm review as independent constraints.
 
+The repo-local [VERDICT capability assessment](docs/vtrace/CAPABILITY_ASSESSMENT.md)
+scores the current program **15/21**. Compact attribution, durable local
+outcomes, lifecycle value, and fiscal authority remain held until complete
+evidence joins support them.
+
 Its first official run groups ForeignAssistance.gov's FY2024 country file into
 seven source regions. It finds **$85.781B obligated** and **$71.576B disbursed**,
 a same-year ratio of **83.44%**. Two regions—including the source's `World`
